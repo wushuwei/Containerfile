@@ -1,4 +1,4 @@
-FROM ubi8/ubi:8.3
+FROM ubi8
 LABEL description="hello image"
 MAINTAINER steven wu steven.wu@ontario.ca
 RUN yum install -y httpd && \
